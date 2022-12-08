@@ -39,3 +39,12 @@ header{
 .head a:hover{
     color: #0000fffc;
 }
+.main_section{
+    width:100%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    background: url(../media/imges/back3.jpg) no-repeat ;
+    background-size:cover;
+
+}
