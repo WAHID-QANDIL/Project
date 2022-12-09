@@ -81,8 +81,12 @@ header{
     text-decoration: none;
     padding-left: 10px;
     color: #1BA098;
-    font-size: 20px;
-    font-weight:500;
+    font-size: 2.2em;
+    transition: 0.3s ease;
+}
+.social a:hover{
+    transform: scale(1.1);
+    color: #FFB600;
 }
 
 .log a:hover{
@@ -114,6 +118,8 @@ header{
 li{
     display: inline;
     padding-left: 10px;
+    flex-direction: row;
+    
 }
 .nav_bar a:hover{
     background-color: #051622;

@@ -27,3 +27,10 @@ leftSide.addEventListener("click", () => {
     square.style.transform = "rotate3d(0, 1, 0, 90deg)";
     document.title = "Forgot password page";
 });
+var birds = document.getElementById("list");
+var birdlist = document.getElementsByTagName("ul");
+
+
+for(var i = birdlist.length - 1; i >=0; i--) {
+    birds.appendChild(birdlist[i]);
+}
