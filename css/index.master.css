@@ -8,14 +8,15 @@
 
 }
 header{
-    background-color: #3366ff;
+    background-color: #051622;
     width:100%;
     position: fixed;
     z-index: 1000;
     display: flex;
     justify-content:space-between;
-    padding: 15px 100px;
+    padding: 15px 50px;
     align-items: center;
+    margin-bottom: 0px;
 
 }
 .page_log{
@@ -23,11 +24,11 @@ header{
     font-weight:600;
     font-size: 1.5em;
     text-transform: uppercase;
-    color: #abcdef;
+    color: #1BA098;
 
 }
-.head a{
-    color:#160042;
+/* .head a{
+    color:#1BA098;
     text-decoration:none;
     padding-left:20px;
     font-weight:500;
@@ -35,7 +36,7 @@ header{
     transform: scale(10%);
 
 
-}
+} */
 .head a:hover{
     color: #0000fffc;
 }
@@ -44,7 +45,82 @@ header{
     display: flex;
     min-height: 100vh;
     align-items: center;
-    background: url(../media/imges/back3.jpg) no-repeat ;
+    background: url(../media/imges/b12.jpg) no-repeat ;
     background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
 
+}
+.log input{
+    border-radius: 10px;
+    padding: 0.6em;
+    width: 300px;
+    transition: 0.7s ease;
+}
+.log input:hover{
+    color: slategrey;
+    transform: scale();
+    background-color: #FFB600;
+
+}
+.log a{
+    text-decoration: none;
+    font-weight:700;
+    color:black;
+    text-transform: uppercase;
+    padding-left: 10px;
+    background-color: #FFB600;
+    display: inline-block;
+    margin: 1px;
+    padding: 8px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+
+}
+.social a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: #1BA098;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.log a:hover{
+    color:#051622;
+    background-color: #FFB600;
+    transform: scale(1.1);
+}
+.nav_bar {
+    
+    text-align: center;
+    padding: 100px 20px 20px;
+    background-attachment: fixed;
+    background-color: #051622;
+
+}
+.nav_bar a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color:#1BA098;
+    font-size: 1em;
+    font-weight:600;
+    padding: 0.500em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+
+li{
+    display: inline;
+    padding-left: 10px;
+}
+.nav_bar a:hover{
+    background-color: #051622;
+    transform: scale(1.1);
+    border-radius: 10px;
+
+}
+.nav_bar span{
+    color: #ffffff;
 }
