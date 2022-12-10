@@ -14,7 +14,7 @@ header{
     z-index: 1000;
     display: flex;
     justify-content:space-between;
-    padding: 15px 50px;
+    padding: 15px 20px;
     align-items: center;
     margin-bottom: 0px;
 
@@ -44,11 +44,19 @@ header{
     width:100%;
     display: flex;
     min-height: 100vh;
-    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
     background: url(../media/imges/b12.jpg) no-repeat ;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.main_section nav{
+    display: flex;
+    flex-direction: row;
 
 }
 .log input{
@@ -97,7 +105,7 @@ header{
 .nav_bar {
     
     text-align: center;
-    padding: 100px 20px 20px;
+    padding: 150px 20px 20px;
     background-attachment: fixed;
     background-color: #051622;
 
@@ -119,7 +127,7 @@ li{
     display: inline;
     padding-left: 10px;
     flex-direction: row;
-    
+    flex-wrap: wrap;
 }
 .nav_bar a:hover{
     background-color: #051622;
@@ -129,4 +137,15 @@ li{
 }
 .nav_bar span{
     color: #ffffff;
+}
+.services-cards{
+    margin-top: 50px;
+    
+}
+.imge-card img{
+    border: #ffffff solid 1px;
+    width: 100%;
+}
+.content{
+    display: flex;
 }
