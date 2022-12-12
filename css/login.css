@@ -13,11 +13,11 @@ body {
     display: flex;
     color: aliceblue;
     align-items: center;
-    background-image: url("../media/imges/b6.jpg");
+    /* background-image: url("../media/imges/WhatsApp\ Image\ 2022-12-12\ at\ 00.21.33.jpg"); */
     background-repeat: no-repeat;
-    /* background-color:#051622 ; */
-    background-size: cover;
-    background-position: bottom;
+    background-color:#051622 ;
+    background-size: 250%;
+    background-position: right;
 }
 
 .container {
@@ -40,7 +40,7 @@ body {
     justify-content: center;
     transform-style: preserve-3d;
     transition: all 0.3s ease-in;
-    box-shadow: 3px 3px 5px #FFB600;
+    box-shadow: 3px 3px 5px #1BA098;
 }
 
 .front,
@@ -50,12 +50,12 @@ body {
     height: 100%;
     padding: 40px;
     display: flex;
-    border-radius: 5px;
+    border-radius: 20px;
     position: absolute;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: #1BA098;
+    background-color: #051622;
     box-shadow: 3px 3px 5px #012a4a;
 }
 
@@ -78,7 +78,7 @@ body {
     min-height: 30px;
     padding: 10px 20px;
     border-radius: 4px;
-    background-color:#FFB600;
+    background-color:#ffcc65;
 }
 
 .container h1 {
@@ -114,8 +114,9 @@ body {
     min-height: 30px;
     font-size: 20px;
     border-radius: 4px;
-    background-color: #FFB600;
+    background-color: #ffcc65;
 }
+/*#ffcc65*/
 
 #frontSide {
     display: none;
@@ -134,6 +135,6 @@ body {
         width: 500px;
         padding: 50px 100px;
         height: 500px;
-        background-image: linear-gradient(to top, #012a4a, #01497c, #89c2d9);
+        background-image: linear-gradient(to top, #011a2e, #01497c, #115b78);
     }
 }

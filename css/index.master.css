@@ -78,7 +78,7 @@ a {
 .log input:hover {
     color: slategrey;
     transform: scale();
-    background-color: #FFB600;
+    background-color: #ffcc65;
 
 }
 
@@ -88,14 +88,18 @@ a {
     -moz-transition: 0.5s ease;
     -ms-transition: 0.5s ease;
     -o-transition: 0.5s ease;
+    /* border: #ffcc65 solid 2px; */
+    border-radius: 10px;
+    background-color: #051622;
+    /* color: #051622; */
 }
 
 .logo img:hover {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
 }
 
 .log a {
@@ -104,7 +108,7 @@ a {
     color: black;
     text-transform: uppercase;
     padding-left: 10px;
-    background-color: #FFB600;
+    background-color: #ffcc65;
     display: inline-block;
     margin: 1px;
     padding: 8px;
@@ -123,12 +127,12 @@ a {
 
 .social a:hover {
     transform: scale(1.1);
-    color: #FFB600;
+    color: #ffcc65;
 }
 
 .log a:hover {
     color: #051622;
-    background-color: #FFB600;
+    background-color: #ffcc65;
     transform: scale(1.1);
 }
 
@@ -192,7 +196,7 @@ li {
 
 .content {
     /* display: flex; */
-    background-color: #808080;
+    background-color: none;
     justify-content: space-between;
     padding: 5px;
     /* border-radius: 15px; */
@@ -202,15 +206,15 @@ li {
 
 .card {
     margin-right: 20px;
-    border: #FFB600 solid 2px;
+    border: #003b49 solid 2px;
     border-radius: 10px;
     margin: 10px;
 
 }
 
 .services-cards a {
-    background-color: #FFB600;
-    color: #051622;
+    background-color: #003b49;
+    color: #ffffff;
     padding: 3px;
     border-radius: 10px;
 }
@@ -231,5 +235,5 @@ li {
 .sup-section hr {
     width: 100%;
     height: 10px;
-    border: #FFB600 solid 10px;
+    border: #fce196 solid 10px;
 }
