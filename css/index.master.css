@@ -88,8 +88,11 @@ a {
     -moz-transition: 0.5s ease;
     -ms-transition: 0.5s ease;
     -o-transition: 0.5s ease;
-    /* border: #ffcc65 solid 2px; */
-    border-radius: 10px;
+    /* border:white dotted 2px; */
+
+    /* border-left-color:#051622; */
+    /* border-right-color: #1BA098; */
+    border-radius: 50%;
     background-color: #051622;
     /* color: #051622; */
 }
