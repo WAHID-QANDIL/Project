@@ -15,7 +15,7 @@ body {
     align-items: center;
     /* background-image: url("../media/imges/WhatsApp\ Image\ 2022-12-12\ at\ 00.21.33.jpg"); */
     background-repeat: no-repeat;
-    background-color:#051622 ;
+    background-color:#005a9b ;
     background-size: 250%;
     background-position: right;
 }
@@ -55,7 +55,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: #051622;
+    background-color: #005a9b;
     box-shadow: 3px 3px 5px #012a4a;
 }
 
@@ -135,6 +135,6 @@ body {
         width: 500px;
         padding: 50px 100px;
         height: 500px;
-        background-image: linear-gradient(to top, #011a2e, #01497c, #115b78);
+        background-image: linear-gradient(to top, #008cff, #004a83, #000000);
     }
 }
