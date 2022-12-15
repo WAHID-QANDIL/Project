@@ -4,6 +4,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta name="language" content="ES" />
+    <link rel="stylesheet" href="../css/chat_us.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -71,16 +72,16 @@
               
               
               <div class="dropdown-content">
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
-                      <a href="#">Link 4</a>
-                      <a href="#">Link 5</a>
-                      <a href="#">Link 6</a>
-                      <a href="#">Link 7</a>
-                      <a href="#">Link 8</a>
-                      <a href="#">Link 9</a>
-                      <a href="#">Link 10</a>
+                      <a href="#">Link1</a>
+                      <a href="#">Link2</a>
+                      <a href="#">Link3</a>
+                      <a href="#">Link4</a>
+                      <a href="#">Link5</a>
+                      <a href="#">Link6</a>
+                      <a href="#">Link7</a>
+                      <a href="#">Link8</a>
+                      <a href="#">Link9</a>
+                      <a href="#">Link10</a>
               </div>
 
 
@@ -147,8 +148,7 @@
         </div>
       </nav>
     </section>
-    <section class="sup-section">
-      <hr />
+    <article class="sup-section">
       <p
         style="
           text-transform: uppercase;
@@ -158,6 +158,65 @@
       >
         <b> new section</b>
       </p>
-    </section>
+    </article>
+
+
+
+
+    <div class="chat-box fixed-positioning" style="padding-bottom: 0px;">
+      <div class="chat-header">
+        <!-- <img src="http://104.248.11.97/images/ypcChat.jpg" alt="YPC Chat Service" id="chatBoxLogo"> -->
+        <span>Chat us now!</span>
+        <button>Show</button>
+      </div>
+      <div class="chat-content">
+        <div class="bottom">
+          <div class="colm">
+            <!-- <img src="http://104.248.11.97/images/ypcChatAgent.png" alt="YPC Chat Agent" id="ypcChatAgent"> -->
+          </div>
+          <div class="colm_agentData">
+            <p id="agentName" style="margin-bottom: 2px;">DTU</p>
+            <p id="supportAgent" style="margin-bottom: 2px;">Support Agent</p>
+            <p id="theCurrentTime" style="font-weight:600; font-size:1.9em">time</p>
+          </div>
+          <div class="colm">
+            <div class="agentRatingAndContact">
+              <!-- <img src="http://104.248.11.97/images/thumbsDown.png" alt="Thumbs Down Rating" id="thumbsDown"> -->
+              <!-- <img src="http://104.248.11.97/images/thumbsUp.png" alt="Thumbs Up Rating" id="thumbsUp"> -->
+              <!-- <img src="http://104.248.11.97/images/email.png" alt="Email Agent" id="emailIcon"> -->
+              <!-- <p id="ratingFeedbackMessage">How am I doing?</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="agentChatMessage">
+          <p class="chat-title">Hi, are you looking for Chat Agents DTU</p>
+        </div>
+        <form action="javascript:void(0)" class="chat-form">
+          <div>
+            <label for="name">Your Name <span></span></label>
+            <input type="text" id="name" required>
+          </div>
+          <div>
+            <label for="email">E-mail <span></span></label>
+            <input type="email" id="email" required>
+          </div>
+          <div>
+            <label for="message">Message <span>*</span></label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" id="chatNowButton">Chat Now</button>
+        </form>
+      </div>
+    </div>
+    <footer class="head_foot">
+
+      <div class="footer">
+      <p>CopyRigh by &copy; DTU TEAM 2022</p>
+
+
+
+      </div>
+    </footer>
+    <script src="../js/footer_chat.js"></script>
   </body>
 </html>

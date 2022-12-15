@@ -15,7 +15,7 @@ header {
   z-index: 1000;
   display: flex;
   justify-content: space-between;
-  padding: 15px 20px;
+  padding: 10px 20px;
   align-items: center;
   margin-bottom: 0px;
 }
@@ -26,6 +26,9 @@ header {
   font-size: 1.5em;
   text-transform: uppercase;
   color: #1ba098;
+}
+.social{
+  margin-right:300px ;
 }
 
 a {
@@ -134,7 +137,7 @@ a {
 
 .nav_bar {
   text-align: center;
-  padding: 150px 20px 20px;
+  padding: 100px 20px 20px;
   background-attachment: fixed;
   background-color: #051622;
 }
@@ -293,4 +296,23 @@ li {
   display: block;
   margin-top: 10px;
 }
+.head_foot{
+  width: 100%;
+  background-color: #003b49;
+  /* background-image :url(../media/imges/b17.jpg); */
+  background-position: center;
+  background-size: cover;
+  min-height: 3em;
 
+}
+.footer{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.1em;
+  /* color: #ffffff; */
+  /* display: flex; */
+  align-content: center;
+  /* margin-top: 3px; */
+
+
+}
